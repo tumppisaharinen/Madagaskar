@@ -98,5 +98,25 @@ h3 {color: red;
     font-weight: 4000;
 }
  
-    
+#kolmas {color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    font-weight: 2000;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius:4px;
+    display: inline-block;
+
+}
+
+#footer {
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    font-weight: 2000;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius:4px;
+    display: inline-block;
+}
 
