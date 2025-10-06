@@ -14,7 +14,10 @@ body {background-image:url(madatausta4.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
-nav {text-align: center;}
+nav {
+    text-align: center;
+    margin-top: 5px;
+}
 
 nav a {font: size 20px;
         text-decoration: none;
@@ -33,15 +36,18 @@ nav a:hover {background-color: rgb(154, 152, 156);}
 .sivulla {background-color: rgb(255, 249, 137);
             background-color: rgb(225, 219, 219);
 }
-h1 {margin:left 200px;
+h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
     font-size: 10vw;
     text-align: center;
 font-family: "Asimovian", sans-serif;
 color:rgb(7, 114, 5) ;
 text-shadow: 5px 5px 8px  rgb(236, 186, 194);
 }
-h2 {Color: red;
+h2 {Color: #39D3E0;
     font-family:Arial, Helvetica, sans-serif;
+    font-size: 38px;
   font-weight: 4000;
   font-style: normal;
   text-shadow:2px 2px 5px rgb(0, 0, 0);
@@ -93,6 +99,7 @@ main{width:100%;
     margin:auto; }
 
 h3 {color: red;
+    font-size: 38px;
     text-align: center;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
     font-weight: 4000;
@@ -120,3 +127,29 @@ h3 {color: red;
     display: inline-block;
 }
 
+.no-bg {
+    background-image: none !important;
+    background-color: #165C40;
+}
+
+.kollaasi {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* pienempi väli kuvien väliin */
+    justify-items: center;
+    margin: 30px 0;
+}
+
+.kollaasi img {
+    width: 320px;   /* vielä suurempi leveys */
+    height: 210px;  /* vielä suurempi korkeus */
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.kollaasi img:hover {
+    transform: scale(1.07);
+    box-shadow: 4px 4px 16px rgba(0,0,0,0.35);
+}
