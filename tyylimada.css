@@ -160,3 +160,28 @@ h3 {color: red;
     transform: scale(1.07);
     box-shadow: 4px 4px 16px rgba(0,0,0,0.35);
 }
+
+figure.keskitys img,
+#romazava-kuva,
+#ravitoto-kuva {
+    width: 440px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+figure.keskitys figcaption {
+    margin-bottom: 30px;
+}
+
+#ravitoto {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 2000;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
