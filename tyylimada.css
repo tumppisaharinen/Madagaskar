@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Libertinus+Keyboard&display=swap');
 
-*/{border:  lime solid;
-padding:20px; 
-}
 body {color:rgb(7, 0, 0); /* tekstin väri */   
     font-family: Verdana, Geneva, Tahoma, sans-serif;  
       /* taustan väri */    
@@ -19,16 +16,16 @@ nav {
     margin-top: 5px;
 }
 
-nav a {font: size 20px;
-        text-decoration: none;
-        color:rgb(0, 0, 0);
-        background-color:rgb(255, 249, 137) ;
-        display: inline-block;
-        width: 10em;
-        border: lightcoral solid 2px;
-        padding: 5px;
-        margin-bottom: 10px;
-
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 249, 137);
+    display: inline-block;
+    width: 10em;
+    border: lightcoral solid 2px;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
 nav a:hover {background-color: rgb(154, 152, 156);}
@@ -45,13 +42,13 @@ font-family: "Asimovian", sans-serif;
 color:rgb(7, 114, 5) ;
 text-shadow: 5px 5px 8px  rgb(236, 186, 194);
 }
-h2 {Color: #39D3E0;
-    font-family:Arial, Helvetica, sans-serif;
+h2 {
+    color: #39D3E0;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 38px;
-  font-weight: 4000;
-  font-style: normal;
-  text-shadow:2px 2px 5px rgb(0, 0, 0);
-
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
 *{box-sizing: border-box;}
@@ -61,24 +58,26 @@ h2 {Color: #39D3E0;
             text-align:center; /* tekstin keskitys */
 }
 /* id-määritys */
-#eka {color:white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#eka {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
-    font-weight: 2000;
+    font-weight: 700;
     background-color: rgba(0,0,0,0.5);
     padding: 10px;
-    border-radius:4px;
+    border-radius: 4px;
     display: inline-block;
     
     
 }
-#toka {color:white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:large;
-    font-weight: 2000;
+#toka {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 700;
     background-color: rgba(0,0,0,0.5);
     padding: 10px;
-    border-radius:4px;
+    border-radius: 4px;
     display: inline-block;
 }
 main{width:100%;
@@ -105,32 +104,33 @@ main{width:100%;
     box-shadow: 8px 8px 8px greenyellow;
     margin:auto; }
 
-h3 {color: red;
+h3 {
+    color: red;
     font-size: 38px;
     text-align: center;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
-    font-weight: 4000;
+    font-weight: 700;
 }
  
-#kolmas {color:white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:large;
-    font-weight: 2000;
+#kolmas {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 700;
     background-color: rgba(0,0,0,0.5);
     padding: 10px;
-    border-radius:4px;
+    border-radius: 4px;
     display: inline-block;
-
 }
 
 #footer {
-    color:white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:large;
-    font-weight: 2000;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 700;
     background-color: rgba(0,0,0,0.5);
     padding: 10px;
-    border-radius:4px;
+    border-radius: 4px;
     display: inline-block;
 }
 
@@ -179,7 +179,7 @@ figure.keskitys figcaption {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
-    font-weight: 2000;
+    font-weight: 700;
     background-color: rgba(0,0,0,0.5);
     padding: 10px;
     border-radius: 4px;
